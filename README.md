@@ -53,6 +53,21 @@ Você pode abrir o notebook diretamente no Google Colab clicando no link abaixo:
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1259RpEHlD2CRE6LvuKiGX5B-Q7N3UWh2?usp=sharing)
 
+
+---
+
+
+├── data/
+│   └── Base_casas_regressao.csv     ← Base de dados utilizada pelo modelo
+├── ML_Mercado_imobiliario.ipynb     ← Notebook principal (Google Colab)
+└── requirements.txt                 ← Dependências do projeto
+
+⚠️ Instrução importante
+
+Antes de executar o notebook, faça o upload do arquivo Base_casas_regressao.csv dentro da pasta data/ no ambiente do Colab (ou ajuste o caminho do dataset no código caso use outro local).
+Isso garante que o modelo possa carregar e processar corretamente os dados de entrada.
+
+
 ---
 
 ## 📈 Resultados Obtidos
